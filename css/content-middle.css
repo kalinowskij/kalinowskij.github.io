@@ -1,0 +1,115 @@
+.content-box-middle{
+    padding-top: 100px;
+    width: 800px;
+    position: relative;
+    /*border: red solid 1px;*/
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+.content-box-middle-period{
+    /*border: #999be0 solid 1px;*/
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.content-box-middle-period-title{
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+.content-box-middle-period-title span {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    font-size: 2em;
+}
+.content-box-middle-people{
+    /*border: #e09eb6 solid 1px;*/
+    width: 300px;
+    display: flex;
+    position: relative;
+    margin-left: 500px;
+    flex-direction: column;
+}
+
+.content-box-middle-event-people-title{
+    /*border: #e09eb6 solid 1px;*/
+    margin-left: 10px;
+    position: sticky;
+    top: 0;
+}
+.content-box-middle-event-people-card{
+    /*border: #e09eb6 solid 1px;*/
+    position: absolute;
+    padding:10px;
+}
+.content-box-middle-event-people-card-photo{
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+
+}
+.content-box-middle-event-people-card-photo img{
+    width: 80px;
+    height: 80px;
+}
+.content-box-middle-event-people-card-name{
+    margin-left: 90px;
+    padding-top: 10px;
+    width: 200px;
+}
+.content-box-middle-event-people-card-rank{
+    margin-left: 90px;
+    width: 200px;
+}
+.content-box-middle-event-people-card-life{
+    margin-left: 90px;
+    width: 200px;
+}
+
+
+
+
+.content-box-middle-event-people-title span{
+    /*border: #e09eb6 solid 1px;*/
+    position: absolute;
+    margin-left: 1px;
+}
+
+.content-box-middle-event{
+    /*border: #3b923d solid 1px;*/
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+.content-box-middle-event-item{
+    min-height: 100px;
+    border-top: #cdcccc dashed 1px;
+}
+.content-box-middle-event-circle{
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: -5px;
+}
+.content-box-middle-event-date{
+    text-align: right;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -155px;
+    width: 150px;
+    color: cornflowerblue;
+}
+.content-box-middle-event-text{
+    margin-top: -10px;
+    margin-left: 310px;
+    color: white;
+    width: 200px;
+    padding-bottom: 20px;
+}
