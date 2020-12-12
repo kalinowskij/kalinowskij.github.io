@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="./css/content.css">
     <link rel="stylesheet" href="./css/content-middle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery.js"></script>
 </head>
 <body>
 <div class="background-box">
+    <canvas id="canvas"></canvas>
     <div class="background-box-right-top-panel">
         <div class="background-box-right-top-panel-item">
             <img src="img/facebook.svg" alt="">
@@ -93,7 +95,7 @@
                     <div class="content-box-middle-event-item">
                         <div class="content-box-middle-event-circle"></div>
                         <div class="content-box-middle-event-date">29 августа 1941 года</div>
-                        <div class="content-box-middle-event-text">части 16-й немецкой армии, наступавшие на Ленинград с
+                        <div id="content_1" class="content-box-middle-event-text">части 16-й немецкой армии, наступавшие на Ленинград с
                             юга, вышли к реке Неве
                         </div>
                     </div>
@@ -148,7 +150,7 @@
                     <div class="content-box-middle-event-item">
                         <div class="content-box-middle-event-circle"></div>
                         <div class="content-box-middle-event-date">20 сентября 1941 г</div>
-                        <div class="content-box-middle-event-text">планировалось начать наступление в направлении на Мгу
+                        <div id="content_2" class="content-box-middle-event-text">планировалось начать наступление в направлении на Мгу
                         </div>
                     </div>
                 </div>
@@ -220,7 +222,7 @@
                     <div class="content-box-middle-event-item">
                         <div class="content-box-middle-event-circle"></div>
                         <div class="content-box-middle-event-date">20 октября 1941 года</div>
-                        <div class="content-box-middle-event-text">по приказу Ставки ВГК войска Ленинградского фронта
+                        <div id="content_3" class="content-box-middle-event-text">по приказу Ставки ВГК войска Ленинградского фронта
                             (Невская оперативная группа, 54-я и 55-я армии) начали новую операцию по прорыву блокады
                             Ленинграда.
                         </div>
@@ -321,7 +323,7 @@
                     <div class="content-box-middle-event-item">
                         <div class="content-box-middle-event-circle"></div>
                         <div class="content-box-middle-event-date">16 ноября 1941 года</div>
-                        <div class="content-box-middle-event-text">начальник штаба Ленинградского фронта Д. Н. Гусев
+                        <div id="content_4" class="content-box-middle-event-text">начальник штаба Ленинградского фронта Д. Н. Гусев
                             заверил высшее руководство, что они с А. А. Ждановым «в прорыве на восток абсолютно
                             убеждены», так как «противник сильно надорван»[12]. Однако неоднократные атаки советских
                             частей, продолжавшиеся до конца 1941 года, так и не достигли какого-либо существенного
@@ -435,5 +437,11 @@
         </div>
     </div>
 </div>
+<script src="js/canvas.js"></script>
+<script src="js/canvas_1.js"></script>
+<script src="js/canvas_2.js"></script>
+<script src="js/canvas_3.js"></script>
+<script src="js/canvas_4.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
